@@ -1,0 +1,25 @@
+<!-- [ Mirror metadata ] generatedAt: 1465329514998 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/timetable_view">
+        <!-- TextView Examples:
+        <unit text="@string/string_resource" />
+        <unit text="Text literal" textSize="14sp" /> -->
+        <unit />
+        <!-- ImageView Examples:
+        <btn_more src="@drawable/image_resource" />
+        <btn_more src="relative_path/image.jpg" /> -->
+        <btn_more />
+        <time />
+        <venue />
+        <lec_name />
+        <lec_contacts />
+        <btn_call />
+        <lec_email />
+        <btn_email />
+    </_content>
+</screen>

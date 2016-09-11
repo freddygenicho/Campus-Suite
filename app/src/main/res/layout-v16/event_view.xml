@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:foreground="?android:selectableItemBackground"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/event_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/event_background_image"
+            android:maxHeight="100dp"
+            android:transitionName="@string/event_background_image"
+            tools:targetApi="lollipop" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/event_sender_image"
+                android:transitionName="@string/event_sender_image"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="bottom"
+                android:text="Freddy genicho"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:transitionName="@string/event_sender_name"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Bash"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:transitionName="@string/event_title"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/event_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:padding="5dp"
+            android:text="Details of the event comes here"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:transitionName="@string/event_details"
+            tools:targetApi="lollipop" />
+
+        <LinearLayout
+            android:id="@+id/time_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_details">
+
+            <TextView
+                android:id="@+id/event_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="12:00 AM"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:transitionName="@string/event_time"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:id="@+id/event_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:padding="5dp"
+                android:text="May 3, 2016"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:transitionName="@string/event_date"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

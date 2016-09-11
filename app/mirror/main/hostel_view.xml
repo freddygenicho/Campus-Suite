@@ -1,0 +1,25 @@
+<!-- [ Mirror metadata ] generatedAt: 1465329514934 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/hostel_view">
+        <!-- ImageView Examples:
+        <hostel_img src="@drawable/image_resource" />
+        <hostel_img src="relative_path/image.jpg" /> -->
+        <hostel_img />
+        <!-- TextView Examples:
+        <hostel_name text="@string/string_resource" />
+        <hostel_name text="Text literal" textSize="14sp" /> -->
+        <hostel_name />
+        <hostel_description />
+        <hostel_rent />
+        <hostel_location />
+        <caretaker_name />
+        <care_taker_number />
+        <btn_call />
+        <btn_message />
+    </_content>
+</screen>

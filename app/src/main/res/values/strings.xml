@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">Campus Suite</string>
+    <string name="motto">All in one place</string>
+    <string name="welcome_message">Welcome to Campus Suite,
+        \nBy using this Application you agree to our Terms of Service and Privacy Policy </string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_more">More</string>
+    <string name="title_activity_hostel">Room</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_room">Hostels/Rooms</string>
+
+    <string name="tab_1">Home</string>
+    <string name="tab_2">Events</string>
+    <string name="tab_3">Timetable</string>
+    <string name="tab_4">Past papers</string>
+    <string name="tab_5">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="load_more">Loading more posts please wait&#8230;</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="facebook_app_id">1262571563768078</string>
+
+    <string name="slide_1_title">Uok App!</string>
+    <string name="slide_1_desc">A platform that enables students to connect and share great ideas</string>
+
+    <string name="slide_2_title">Room Booking</string>
+    <string name="slide_2_desc">Relax, No need to panic. Book a room for yourself at the comfort of your smart phone.</string>
+
+    <string name="slide_3_title">Events</string>
+    <string name="slide_3_desc">Find out where, when, why there are the hottest events around you. </string>
+
+    <string name="slide_4_title">e-Timetable</string>
+    <string name="slide_4_desc">Get daily updates and notification of when and where the class is to be!</string>
+
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+
+    <string name="app_website_url">http://www.fanerds.com</string>
+
+    <string-array name="hostels">
+        <item>Kabianga</item>
+        <item>Chepnyoga</item>
+        <item>Kapmaso</item>
+        <item>Tarita</item>
+        <item>KwaChief</item>
+        <item>TeamFarm</item>
+    </string-array>
+
+    <array name="social_title">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>You tube</item>
+        <item>Linked In</item>
+        <item>Website</item>
+        <item>Students Portal</item>
+    </array>
+
+    <string-array name="links">
+        <item>https://www.facebook.com/uok</item>
+        <item>https://www.twitter.com/uok</item>
+        <item>https://www.youtube.com/uok</item>
+        <item>https://www.linkedIn.com/uok</item>
+        <item>https://www.kabianga.ac.ke</item>
+        <item>https://www.portal.kabianga.ac.ke</item>
+    </string-array>
+
+    <string-array name="year_of_study">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+    <string-array name="pref_year_value">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="schools">
+        <item>Agriculture and Biotechnology</item>
+        <item>Arts and Social Sciences</item>
+        <item>Business And Economics</item>
+        <item>Education</item>
+        <item>Information Science and Knowledge Management</item>
+        <item>Natural Resource and Environmental Management</item>
+        <item>Science And Technology</item>
+    </string-array>
+    <string-array name="pref_school_value">
+        <item>Agriculture and Biotechnology</item>
+        <item>Arts and Social Sciences</item>
+        <item>Business And Economics</item>
+        <item>Education</item>
+        <item>Information Science and Knowledge Management</item>
+        <item>Natural Resource and Environmental Management</item>
+        <item>Science And Technology</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>Mathematics and Computer Science</item>
+        <item>Physical Sciences</item>
+        <item>Biological Science</item>
+        <item>Education Arts</item>
+    </string-array>
+    <string-array name="pref_department_value">
+        <item>Mathematics and Computer Science</item>
+        <item>Physical Sciences</item>
+        <item>Biological Science</item>
+        <item>Education Arts</item>
+    </string-array>
+
+    <string-array name="degree">
+        <item>Bsc. Information Technology</item>
+        <item>Bsc. Applied Statics</item>
+        <item>Bsc. Computer Science</item>
+        <item>Bsc. Education Arts</item>
+    </string-array>
+    <string-array name="pref_degree_value">
+        <item>Bsc. Information Technology</item>
+        <item>Bsc. Applied Statics</item>
+        <item>Bsc. Computer Science</item>
+        <item>Bsc. Education Arts</item>
+    </string-array>
+
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+    </string>
+    <string name="reminder">
+        Currently, it seems that you have not set your registration number.
+        Please proceed to settings > profile > registration and fill it with your details to improve app performance.
+        Thank you.
+    </string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_hint">Search</string>
+    <string name="or">OR</string>
+    <string name="background_image">background image</string>
+    <string name="logo">App logo string</string>
+    <string name="title_activity_maps">Location</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_help">Help</string>
+    <string name="title_sign_out">Log out</string>
+    <string name="event_background_image">Event background</string>
+    <string name="event_sender_image">Event sender image</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="accept_continue"><![CDATA[Accept & Continue]]></string>
+    <string name="try_again">Retry</string>
+    <string name="no_internet">Failed to load, please try again</string>
+    <string name="no_data_found">No data found</string>
+    <string name="error_image">connection error image</string>
+    <string name="no_events">Currently no event is available.</string>
+    <string name="no_past_paper">Kindly bare with us for the past papers not being available for now but we
+    are working on it 24/7 to ensure that is available by the end of this month.</string>
+    <string name="no_hostel">Hostels are not available for now</string>
+    <string name="title_activity_social">Social Sites</string>
+    <string name="title_activity_details">Profile</string>
+    <string name="details_confirm">It is highly recommended that you confirm the details filled before proceeding.</string>
+    <string name="load_error">couldn\'t load image</string>
+
+    <string name="title_activity_timetable">Timetable</string>
+    <string name="title_activity_message">Notifications</string>
+
+    <string name="message_notification_title_template">Message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us">About Us</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="feedback">Send feedback</string>
+    <string name="my_room">My Room</string>
+    <string name="term_and_conditions">Terms And Conditions</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="term_and_conditions_url">http://www.campussuite.com/hostels/terms_and_conditons.htm</string>
+    <string name="title_activity_students">StudentsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_lost_item">LostItemActivity</string>
+    <string name="title_activity_add_lost_item">AddLostItemActivity</string>
+    <string name="title_next">Next</string>
+    <string name="profileImage">profileImage</string>
+    <string name="dateTime">dateTime</string>
+    <string name="postImage">postImage</string>
+    <string name="postTitle">postTitle</string>
+    <string name="postContent">postContent</string>
+    <string name="refresh">Refresh</string>
+    <string name="mark_all_as_read">Mark all as read</string>
+    <string name="mark_all_as_unread">Mark all as unread</string>
+    <string name="title_activity_event">Events</string>
+    <string name="eventImage">eventImage</string>
+    <string name="event_title">eventTitle</string>
+    <string name="event_details">eventDetails</string>
+    <string name="event_date">eventDate</string>
+    <string name="event_time">eventTime</string>
+    <string name="event_sender_name">sender_name</string>
+    <string name="senderName">senderName</string>
+    <string name="senderTitle">senderTitle</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="location">Location</string>
+    <string name="social_sites">Social Sites</string>
+    <string name="no_timetable">Sorry, timetable implementation is still in progress we ask for your patience. Thank you.</string>
+
+</resources>

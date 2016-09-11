@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:dialogTitle="Full Names"
+        android:inputType="textCapWords"
+        android:key="name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Enter your full names"
+        android:title="Full Names" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue=" "
+        android:inputType="textCapCharacters"
+        android:key="registration"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Enter your Reg No."
+        android:title="Registration Number" />
+
+    <ListPreference
+        android:defaultValue="Bsc. Information Technology"
+        android:entries="@array/degree"
+        android:entryValues="@array/pref_degree_value"
+        android:key="degree"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Select your degree"
+        android:title="Degree" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/year_of_study"
+        android:entryValues="@array/pref_year_value"
+        android:key="year"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Pick your year of study"
+        android:title="Year of Study" />
+
+    <ListPreference
+        android:defaultValue="Science and Technology"
+        android:entries="@array/schools"
+        android:entryValues="@array/pref_school_value"
+        android:key="school"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Select your school"
+        android:title="School" />
+
+    <ListPreference
+        android:defaultValue="Mathematics and Computer Science"
+        android:entries="@array/departments"
+        android:entryValues="@array/pref_department_value"
+        android:key="department"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Select your department"
+        android:title="Department" />
+
+</PreferenceScreen>

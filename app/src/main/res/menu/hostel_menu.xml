@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_my_room"
+        android:title="@string/my_room"
+        android:icon="@drawable/ic_home_white_36dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_terms_and_conditions"
+        android:title="@string/term_and_conditions"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_payment"
+        android:title="@string/payment_method"
+        app:showAsAction="never" />
+
+</menu>

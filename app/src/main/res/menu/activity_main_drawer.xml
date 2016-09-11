@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_grey_500_18dp"
+            android:title="@string/title_activity_profile" />
+
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_grey_500_18dp"
+            android:title="@string/title_activity_event" />
+
+        <item
+            android:id="@+id/nav_hostel"
+            android:icon="@drawable/ic_hotel_grey_500_18dp"
+            android:title="@string/accommodation" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_map_grey_500_18dp"
+            android:title="@string/location" />
+
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_language_grey_500_18dp"
+            android:title="@string/social_sites" />
+
+    </group>
+
+    <item android:title="@string/title_activity_more">
+
+        <menu>
+
+            <item
+                android:icon="@drawable/logout"
+                android:id="@+id/nav_sign_out"
+                android:title="@string/title_sign_out" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_grey_500_18dp"
+                android:title="@string/title_help" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_grey_500_18dp"
+                android:title="@string/title_activity_about" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_grey_500_18dp"
+                android:title="@string/title_activity_settings" />
+        </menu>
+
+    </item>
+
+</menu>

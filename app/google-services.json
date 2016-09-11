@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "282438359301",
+    "firebase_url": "https://uok-uliza.firebaseio.com",
+    "project_id": "uok-uliza",
+    "storage_bucket": "uok-uliza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282438359301:android:11a3f4747fcf48e6",
+        "android_client_info": {
+          "package_name": "com.thegads.uliza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282438359301-gqnnq6gusi0lha17nkososgvtotkdf3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thegads.uliza",
+            "certificate_hash": "5B43B3588DCA350741F64D2FF87D722ED1312264"
+          }
+        },
+        {
+          "client_id": "282438359301-ng5p8tljni7jf4afmrjvc4411l6b5unh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKADrZnpZ83-KRHmvgjkVUcuVxXNqRYDQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282438359301-ng5p8tljni7jf4afmrjvc4411l6b5unh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
